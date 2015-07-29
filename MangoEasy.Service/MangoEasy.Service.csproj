@@ -65,7 +65,7 @@
     <Compile Include="AccountService.cs" />
     <Compile Include="BaseService.cs" />
     <Compile Include="CustomerService.cs" />
-    <Compile Include="MongoDbApiDataContext.cs" />
+    <Compile Include="MangoEasyDataContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

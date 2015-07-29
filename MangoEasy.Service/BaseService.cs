@@ -2,9 +2,9 @@
 {
     public class BaseService
     {
-        public readonly MongoDbApiDataContext DbContext;
+        public readonly MangoEasyDataContext DbContext;
 
-        public BaseService(MongoDbApiDataContext dbContext)
+        public BaseService(MangoEasyDataContext dbContext)
         {
             DbContext = dbContext;
         }

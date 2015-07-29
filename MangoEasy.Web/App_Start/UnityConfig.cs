@@ -25,7 +25,7 @@ namespace MongoDBApi.Web
         public static void RegisterTypes(IUnityContainer container)
         {
             container.RegisterType<IAccountService, AccountService>();
-            container.RegisterType<IOrderService, OrderService>();
+            
         }
     }
 }

@@ -7,7 +7,7 @@ namespace MangoEasy.Service
 {
     public class CustomerService : BaseService, ICustomerService
     {
-         public CustomerService(MongoDbApiDataContext dbContext)
+         public CustomerService(MangoEasyDataContext dbContext)
              : base(dbContext)
         {
         }

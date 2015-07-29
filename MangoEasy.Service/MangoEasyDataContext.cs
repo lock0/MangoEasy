@@ -2,11 +2,12 @@
 using System.Data.Entity;
 using MangoEasy.Library.Models;
 using MangoEasy.Library.Services;
+using MangoEasy.Library.Models.Interfaces;
 
 namespace MangoEasy.Service
 {
     [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
-    public class MongoDbApiDataContext : DbContext, IDataContext
+    public class MangoEasyDataContext : DbContext, IDataContext
     {
         //public MangoDevDataContext() { }
         //public MangoDevDataContext(string connStringName) : base(connStringName) { }
