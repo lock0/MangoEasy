@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoEasy.Library", "MangoEasy.Library\MangoEasy.Library.csproj", "{EAD2DBEC-F621-4176-802A-09D7FA970844}"
 EndProject
@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{108508
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoEasy.Api", "MangoEasy.Api\MangoEasy.Api.csproj", "{87950D7A-E41F-4E55-BB0C-3EC7E64121E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,10 @@ Global
 		{F5467672-FDF3-4A28-85CC-81D5890973A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5467672-FDF3-4A28-85CC-81D5890973A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5467672-FDF3-4A28-85CC-81D5890973A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87950D7A-E41F-4E55-BB0C-3EC7E64121E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87950D7A-E41F-4E55-BB0C-3EC7E64121E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87950D7A-E41F-4E55-BB0C-3EC7E64121E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87950D7A-E41F-4E55-BB0C-3EC7E64121E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
