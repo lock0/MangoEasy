@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+@Scripts.Render("~/bundles/admin")
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>appid</th>
+            <th>appSecret</th>
+            <th>token</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-bind="foreach:Admin.viewModel.Models">
+            <td data-bind="text:AppId"></td>
+            <td data-bind="text:AppSecret"></td>
+            <td data-bind="text:AccessToken"></td>
+
+        </tr>
+    </tbody>
+
+
+</table>
+<input class="form-control" type="text" placeholder="appid" data-bind="value:Admin.viewModel.Customer.AppId" />
+<input class="form-control" type="text" placeholder="appSecret" data-bind="value:Admin.viewModel.Customer.AppSecret" />
+<button class="btn btn-primary" data-bind="click:Admin.viewModel.create ">submit</button>
