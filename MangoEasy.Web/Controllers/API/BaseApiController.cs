@@ -1,9 +1,9 @@
-﻿using System.Web.Http;
-using System.Web.Http.Cors;
+﻿using MongoDBApi.Web.Models;
+using System.Web.Http;
 
 namespace MangoEasy.Web.Controllers.API
 {
-   
+
     public class BaseApiController : ApiController
     {
         protected ResponseModel Success()
@@ -25,12 +25,5 @@ namespace MangoEasy.Web.Controllers.API
             };
         }
     }
-    public class ResponseModel
-    {
-        public int Id { get; set; }
-        public int ErrorCode { get; set; }
-        public bool Error { get; set; }
-        public string Message { get; set; }
-        public string DebugMessage { get; set; }
-    }
+    
 }
